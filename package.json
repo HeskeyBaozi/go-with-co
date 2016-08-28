@@ -2,9 +2,11 @@
   "name": "go-with-co",
   "version": "1.0.0",
   "description": "co moduld analysis",
-  "main": "index.js",
+  "main": "dist/go-with-co.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter mochawesome --reporter-options reportDir=customReportDir,reportName=customReportName",
+    "build": "webpack",
+    "watch":"webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -17,9 +19,14 @@
   },
   "homepage": "https://github.com/HeskeyBaozi/go-with-co#readme",
   "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
     "browserify": "^10.0.0",
     "istanbul-harmony": "0",
     "mocha": "^2.0.0",
-    "mz": "^1.0.2"
+    "mochawesome": "^1.5.1",
+    "mz": "^1.0.2",
+    "webpack": "^1.13.2"
   }
 }
