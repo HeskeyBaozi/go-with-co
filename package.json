@@ -1,0 +1,25 @@
+{
+  "name": "go-with-co",
+  "version": "1.0.0",
+  "description": "co moduld analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeskeyBaozi/go-with-co.git"
+  },
+  "author": "Heskey Baozi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HeskeyBaozi/go-with-co/issues"
+  },
+  "homepage": "https://github.com/HeskeyBaozi/go-with-co#readme",
+  "devDependencies": {
+    "browserify": "^10.0.0",
+    "istanbul-harmony": "0",
+    "mocha": "^2.0.0",
+    "mz": "^1.0.2"
+  }
+}
